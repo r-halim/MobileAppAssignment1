@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="mortgage_title">Mortgage ($):</string>
+    <string name="mortgage_hint">Mortgage ($)</string>
+    <string name="interest_title">Interest (%):</string>
+    <string name="interest_hint">Interest (%)</string>
+    <string name="years_title">Number of Years:</string>
+    <string name="years_hint">Number of Years</string>
+    <string name="calculate">Calculate EMI</string>
+    <string name="monthly_payment">Monthly Payment</string>
+    <string name="title">EMI Calculator</string>
+    <string name="instruction">Please enter the following details to calculate your monthly payment (EMI)</string>
+    <string name="calculated_payment"></string>
+    <string name="td_reference">*For the latest interest rates, please refer to the <u>TD website</u></string>
+</resources>
