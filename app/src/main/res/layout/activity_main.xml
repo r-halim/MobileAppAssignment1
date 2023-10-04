@@ -2,8 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#28AED581"
     tools:context=".MainActivity">
 
     <TextView
@@ -23,29 +25,28 @@
 
     <EditText
         android:id="@+id/interest_amount"
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/interest_hint"
         android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#97050505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mortgage_amount" />
 
     <EditText
         android:id="@+id/years_amount"
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/years_hint"
         android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:textColorHint="#97050505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/interest_title2" />
 
@@ -68,15 +69,16 @@
 
     <EditText
         android:id="@+id/mortgage_amount"
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/mortgage_hint"
         android:inputType="numberDecimal|numberSigned"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#97050505"
         app:layout_constraintBottom_toTopOf="@+id/interest_amount"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mortgage_title" />
 
